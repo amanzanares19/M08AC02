@@ -34,6 +34,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="20dp"
+                    android:fontFamily="@font/audiowide"
                     android:text="Zoo"
                     android:textColor="@color/white"
                     android:textSize="34sp"
@@ -45,24 +46,18 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/textTitle"
                     android:layout_marginStart="21dp"
+                    android:fontFamily="@font/audiowide"
                     android:text="Wild life"
                     android:textColor="@color/white"
                     android:textSize="16sp" />
 
-                <androidx.cardview.widget.CardView
-                    android:id="@+id/cardViewLogo"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <ImageView
+                    android:id="@+id/logoApp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+
                     android:layout_alignParentEnd="true"
-                    app:cardCornerRadius="40dp">
-
-                    <ImageView
-                        android:id="@+id/logoApp"
-                        android:layout_width="110dp"
-                        android:layout_height="110dp"
-
-                        app:srcCompat="@drawable/animals9" />
-                </androidx.cardview.widget.CardView>
+                    app:srcCompat="@drawable/logo" />
 
             </RelativeLayout>
 
@@ -79,6 +74,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp"
                     app:layout_columnWeight="1"
                     app:layout_rowWeight="1">
 
@@ -107,6 +103,7 @@
                             android:id="@+id/textView11"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/audiowide"
                             android:text="Penguin"
                             android:textAlignment="center"
                             android:textColor="@color/black"
@@ -122,6 +119,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp"
                     app:layout_columnWeight="1"
                     app:layout_rowWeight="1">
 
@@ -148,6 +146,7 @@
                             android:id="@+id/textView12"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/audiowide"
                             android:text="Rhino"
                             android:textAlignment="center"
                             android:textColor="@color/black"
@@ -163,6 +162,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp"
                     app:layout_columnWeight="1"
                     app:layout_rowWeight="1">
 
@@ -191,6 +191,7 @@
                             android:id="@+id/textView21"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/audiowide"
                             android:text="Panter"
                             android:textAlignment="center"
                             android:textColor="@color/black"
@@ -206,6 +207,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp"
                     app:layout_columnWeight="1"
                     app:layout_rowWeight="1">
 
@@ -232,6 +234,7 @@
                             android:id="@+id/textView22"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/audiowide"
                             android:text="Crocodrile"
                             android:textAlignment="center"
                             android:textColor="@color/black"
@@ -247,6 +250,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp"
                     app:layout_columnWeight="1"
                     app:layout_rowWeight="1">
 
@@ -275,6 +279,7 @@
                             android:id="@+id/textView31"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/audiowide"
                             android:text="Wolf"
                             android:textAlignment="center"
                             android:textColor="@color/black"
@@ -290,6 +295,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp"
                     app:layout_columnWeight="1"
                     app:layout_rowWeight="1">
 
@@ -316,6 +322,7 @@
                             android:id="@+id/textView32"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/audiowide"
                             android:text="Hippo"
                             android:textAlignment="center"
                             android:textColor="@color/black"
@@ -331,6 +338,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp"
                     app:layout_columnWeight="1"
                     app:layout_rowWeight="1">
 
@@ -359,6 +367,7 @@
                             android:id="@+id/textView41"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/audiowide"
                             android:text="Monkey"
                             android:textAlignment="center"
                             android:textColor="@color/black"
@@ -374,6 +383,7 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     app:cardCornerRadius="10dp"
+                    app:cardElevation="20dp"
                     app:layout_columnWeight="1"
                     app:layout_rowWeight="1">
 
@@ -400,6 +410,7 @@
                             android:id="@+id/textView42"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/audiowide"
                             android:text="Bull"
                             android:textAlignment="center"
                             android:textColor="@color/black"
